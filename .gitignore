@@ -1,0 +1,14 @@
+.DS_Store
+wp-cli.local.yml
+.editorconfig
+.idea/
+node_modules/
+vendor/
+wordpress/
+*.zip
+*.tar.gz
+*.swp
+*.txt
+*.log
+*.iml
+composer.lock

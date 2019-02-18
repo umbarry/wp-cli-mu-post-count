@@ -1,0 +1,26 @@
+{
+    "name": "umbarry/mu-post-count",
+    "description": "Allow post count operation across multisite blogs",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/umbarry/mu-post-count",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Umberto Atania",
+            "email": "umbertoatania@gmail.com",
+            "homepage": "https://github.com/umbarry"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": [ "command.php" ]
+    },
+    "require": {
+        "wp-cli/wp-cli": "^2.1.0"
+    },
+    "require-dev": {
+        "behat/behat": "~2.5",
+        "johnpbloch/wordpress": "*"
+    }
+}
