@@ -24,7 +24,7 @@ $count_command = function($args, $assoc_args)
 {
 	$blogs = get_blogs_of_user($assoc_args['author']);
 	$count = array();
-	$command_arguments = '--author=' . $assoc_args['author'];
+	$command_arguments = '--author=' . $assoc_args['author'] . ' ';
 
 	if(!empty($assoc_args['year'])) {
 		$command_arguments .= '--year=' . $assoc_args['year'] . ' ';
